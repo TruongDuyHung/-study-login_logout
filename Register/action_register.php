@@ -2,8 +2,9 @@
 session_start();
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name = $_REQUEST['name'];
+    $_SESSION['acountname']= $name;
     $password = $_REQUEST['password'];
-    $email= $_REQUEST['email'];
+    $email = $_REQUEST['email'];
     // lien ket du lieu tra ve voi data base;
     try {
         $pdo = new PDO('mysql:host=localhost;dbname=test', 'root', '');//tạo 1 đối tượng mới là PDO cú pháp

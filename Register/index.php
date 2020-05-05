@@ -15,47 +15,50 @@
 </head>
 <body>
 <form action="action_register.php" method="post">
-<div class="container">
-    <!---heading---->
-    <header class="heading"> Registration</header><hr></hr>
-    <!---Form starting---->
-    <div class="row ">
-        <!--- For Name---->
-        <div class="col-sm-12">
-            <div class="row">
-                <div class="col-xs-4">
-                    <label class="firstname">First Name :</label> </div>
-                <div class="col-xs-8">
-                    <input type="text" name="name" id="fname" placeholder="Enter your First Name" class="form-control ">
+    <div class="container">
+        <!---heading---->
+        <header class="heading"> Registration</header>
+        <hr></hr>
+        <!---Form starting---->
+        <div class="row ">
+            <!--- For Name---->
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <label class="firstname">First Name :</label></div>
+                    <div class="col-xs-8">
+                        <input type="text" name="name" id="fname" placeholder="Enter your First Name"
+                               class="form-control ">
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-----For email---->
-        <div class="col-sm-12">
-            <div class="row">
-                <div class="col-xs-4">
-                    <label class="mail" >Email :</label></div>
-                <div class="col-xs-8"	>
-                    <input type="email" name="email"  id="email"placeholder="Enter your email" class="form-control" >
+            <!-----For email---->
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <label class="mail">Email :</label></div>
+                    <div class="col-xs-8">
+                        <input type="email" name="email" id="email" placeholder="Enter your email" class="form-control">
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-----For Password and confirm password---->
-        <div class="col-sm-12">
-            <div class="row">
-                <div class="col-xs-4">
-                    <label class="pass">Password :</label></div>
-                <div class="col-xs-8">
-                    <input type="password" name="password" id="password" placeholder="Enter your Password" class="form-control">
+            <!-----For Password and confirm password---->
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <label class="pass">Password :</label></div>
+                    <div class="col-xs-8">
+                        <input type="password" name="password" id="password" placeholder="Enter your Password"
+                               class="form-control">
+                    </div>
                 </div>
             </div>
-        </div>
             <div class="col-sm-12">
                 <input type="submit" value="Register" class="btn float-right login_btn">
             </div>
         </div>
     </div>
-</div>
+    </div>
 </form>
 </body>
 </html>

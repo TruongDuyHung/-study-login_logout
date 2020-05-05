@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (!$resultSet) {
         $_SESSION['error-auth'] = 'Tai khoan pass k dung';
         header('Location:../auth/login.php');// chuyển đến 1 trang khác dùng header(), sử dụng dữ liệu từ trang khác dùng include.
-    }else{
+    } else {
         $_SESSION['isAuth'] = true;
         header('Location:../index1.php');
     }
